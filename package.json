@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-global-mentoring-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint **/*.js",
+    "module2": "npm test && nodemon --exec babel-node ./module2/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "eslint": "^7.7.0",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.1.0",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1",
+    "joi": "^17.2.1",
+    "uuid": "^8.3.0"
+  }
+}
