@@ -1,6 +1,6 @@
 const users = [];
 
-export const createUser = newUser => users.push(newUser);
+export const createNewUser = newUser => users.push(newUser);
 
 export const findUserById = id => users
   .filter(user => !user.isDeleted)
