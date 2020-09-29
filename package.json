@@ -6,7 +6,8 @@
   "scripts": {
     "test": "eslint **/*.js",
     "migrations": "npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
-    "module3": "npm test && nodemon --exec babel-node ./module3/app.js"
+    "module3": "npm test && nodemon --exec babel-node ./module3/app.js",
+    "module2": "npm test && nodemon --exec babel-node ./module2/index.js"
   },
   "keywords": [],
   "author": "",
