@@ -1,7 +1,7 @@
 import Sequelize from 'sequelize';
-import { db_config } from '../config/db_config';
+import { config } from '../config';
 
-const { name, user, password, host, dialect, logging } = db_config;
+const { name, user, password, host, dialect, logging } = config;
 
 export const sequelize = new Sequelize(name, user, password, { host, dialect, logging });
 
